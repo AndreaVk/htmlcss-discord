@@ -7,6 +7,7 @@
 .container{
     width: 90%;
     margin: 0 auto;
+    max-width: 1400px;
 }
 
 header{
@@ -26,13 +27,8 @@ header{
     font-family: century gothic;
 }
 
-.debug main{
-    height: 3100px;
-}
-
 .debug footer{
-    height: 400px;
-    background-color: blue;
+    height: 500px;
 }
 
 nav li{
@@ -202,10 +198,7 @@ h1{
     margin: 0 auto;
     background-color:#F6F6F6 ;
     font-family: century gothic;
-}
-
-.debug .container3{
-    height: 1000px;
+    height: 1200px;
 }
 
 #lasttitle{
@@ -236,4 +229,31 @@ h1{
 
 .testo3{
     padding-top: 80px;
+}
+
+.endmain .h2{
+    font-size: 20px;
+}
+
+.lastbutton{
+    padding: 18px 38px;
+    border-radius: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgba(30, 30, 195, 0.8);
+    color: white;
+}
+
+#btnfix{
+    margin-top: 50px;
+}
+
+#btnfix .lastbutton:hover{
+    background-color: rgba(30, 30, 195, 0.6);
+    box-shadow: 1px 1px 3px 1px #000000;
+
+}
+
+footer{
+    background-color: #23272A;
 }
