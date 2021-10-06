@@ -125,9 +125,43 @@ h1{
 .button.white:hover{
     text-decoration:wavy;
     color: purple;
+    box-shadow: 1px 1px 3px 1px #000000;
+    background-color: rgba (255,255,255, 0.9);
 }
 
 .button.black:hover{
     background-color: rgba(0, 0, 0, 0.8);
     box-shadow: 1px 1px 3px 1px #000000;
+}
+
+.corpo::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.corpo{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.img1{
+    float: left;
+    margin-top: 100px;
+}
+
+.testo{
+    float: right;
+    width: 30%;
+    margin-top: 140px;
+}
+
+.testo h2{
+    font-size: 55px;
+}
+
+.testo p{
+    font-size: 21px;
+    line-height: 1.6;
+    margin-top: 20px;
 }
