@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+.debug .container{
+    height: 100%;
+    background-color:yellow ;
+    border: 1px solid black;
+}
+
+header{
+    height: 80px;
+    line-height: 80px;
+    background-color: pink;
+}
+
+#jumbotron{
+    height: 550px;
+}
+
+.debug #jumbotron{
+    background-color: lightgreen;
+}
+
+.debug main{
+    height: 700px;
+    background-color: red;
+}
+
+.debug footer{
+    height: 400px;
+    background-color: blue;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#logo,
+#accedi{
+    width: 25px;
+    float: left;
+}
+
+nav{
+    float: left;
+}
