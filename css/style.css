@@ -257,3 +257,59 @@ h1{
 footer{
     background-color: #23272A;
 }
+
+.container4{
+    width: 60%;
+    font-family: 'Passion One';
+    position: relative;
+    margin: 0 auto;
+}
+
+.loghi h2{
+    color: #5865F2;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.loghi{
+    width: 20%;
+    position: absolute; 
+    text-align: left;
+    padding-top: 70px;   
+}
+
+#ita{
+    font-size: 14px;
+    color: white;
+    margin-left: 5px;
+}
+
+#flag{
+    width: 25px;
+}
+
+#sez{
+    margin-top: 25px;
+    text-align: left;
+    font-family: arial;
+    
+}
+
+#select{
+    font-size: 5px;
+}
+
+.social{
+    margin-top: 20px;
+}
+
+#dimension,
+#dimension2,
+#dimension3,
+#dimension4{
+    font-size: 20px;
+    color: white;
+    margin-right: 25px;
+}
+
