@@ -259,7 +259,7 @@ footer{
 }
 
 .container4{
-    width: 60%;
+    width:68%;
     font-family: 'Passion One';
     position: relative;
     margin: 0 auto;
@@ -276,7 +276,8 @@ footer{
     width: 20%;
     position: absolute; 
     text-align: left;
-    padding-top: 70px;   
+    padding-top: 70px; 
+    
 }
 
 #ita{
@@ -313,3 +314,109 @@ footer{
     margin-right: 25px;
 }
 
+.container4::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.prodotto nav ul #list1{
+    display: block;
+    margin-left: 400px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+    font-family: century gothic;
+}
+
+.prodotto nav{
+    width: 13%;
+    margin-top: 70px;
+    line-height: 1.6;
+    text-align: left;
+    
+}
+
+h4{
+    color: #5865F2;
+    display: block;
+    margin-left: 400px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-family: century gothic;
+}
+
+.compagnia nav ul #list1{
+    display: block;
+    margin-left: 400px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+    font-family: century gothic;
+}
+
+
+.compagnia nav{
+    width: 38%;
+    margin-top: 70px;
+    line-height: 1.6;
+    text-align: left;
+    
+}
+
+.risorse nav ul #list1{
+    display: block;
+    margin-left: 120px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+    font-family: century gothic;
+}
+
+
+.risorse nav{
+    width: 15%;
+    margin-top: 70px;
+    line-height: 1.6;
+    text-align: left;
+
+    
+}
+
+.risorse nav ul h4{
+    color: #5865F2;
+    display: block;
+    margin-left: 120px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-family: century gothic;
+}
+
+.risorse{
+    font-family: century gothic;
+}
+
+.norme nav{
+    width: 15%;
+    margin-top: 70px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.norme nav ul h4{
+    color: #5865F2;
+    display: block;
+    margin-left: 120px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-family: century gothic;
+}
+
+.norme nav ul #list1{
+    display: block;
+    margin-left: 120px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+    font-family: century gothic;
+}
